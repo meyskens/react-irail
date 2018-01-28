@@ -10,6 +10,7 @@ A Liveboard displays the departures in real time of a specific station.
 ```
     <Liveboard station="Antwerpen-centraal" lang="nl" max={15}/>
 ```
+[Demo](https://meyskens.github.io/react-irail/)
 
 ### Install
 React-iRail is available on NPM
