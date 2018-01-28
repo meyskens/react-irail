@@ -1,0 +1,13 @@
+.platform {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    width: 1.5vw;
+    height: 1.5vw;
+    text-align: center;
+}
+
+.delay {
+    color: red;
+    font-weight: bold;
+}
