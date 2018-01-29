@@ -73,7 +73,7 @@ class Liveboard extends Component {
         return (
             <div>
                 <h2>{this.state.stationName}</h2>
-                <table>
+                <table className={this.props.tableClassName}>
                     <tbody>{rows}</tbody>
                 </table>
             </div>
