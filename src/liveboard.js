@@ -57,7 +57,7 @@ class Liveboard extends Component {
                         <Moment format="HH:mm" unix>{i.time}</Moment>
                     </td>
                     <td className="delay">
-                        {i.delay > 0 ? `+${i.delay}` : ""}
+                        {i.delay > 0 ? `+${i.delay/60}` : ""}
                         {i.canceled > 0 ? `${messages[this.props.lang].canceled}` : ""}
                     </td>
                     <td className="vehicle">
