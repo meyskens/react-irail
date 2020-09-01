@@ -23,7 +23,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "css-loader": "^1.0.0",
-    "file-loader": "^2.0.0",
+    "file-loader": "^6.1.0",
     "moment": "^2.20.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
